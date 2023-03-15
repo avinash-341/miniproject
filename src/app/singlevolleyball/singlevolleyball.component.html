@@ -1,0 +1,96 @@
+<!-- <br><br>
+<div class="container">
+  <div class="card">
+    <img src="https://mikasasports.co.jp/e/wp-content/uploads/2021/04/cku_201011_013-500x500.jpg" alt="" />
+    <div class="card-body">
+      <div class="row">
+        <div class="card-title">
+          <h4>Volleyball</h4>
+          <h3>Rs.800</h3>
+        </div>
+      </div>
+      <hr/>
+      <p>
+      </p>
+      <div class="btn-group">
+        <div class="btn">
+          <a href="">Buy Now</a>
+        </div>
+        <a href=""> Cancel</a>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://rukminim1.flixcart.com/image/416/416/kt1u3rk0/net/m/d/l/2-side-tape-volleyball-net-nylon-02-1005-monika-sports-91-original-imag6h4trw9hzdc5.jpeg?q=70" alt="" />
+    <div class="card-body">
+      <div class="row">
+        <div class="card-title">
+          <h4>Volleyball net</h4>
+          <h3>Rs.600</h3>
+        </div>
+      </div>
+      <hr/>
+      <p>
+      </p>
+      <div class="btn-group">
+        <div class="btn">
+          <a href="">Buy Now</a>
+        </div>
+        <a href=""> Cancel</a>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://m.media-amazon.com/images/I/813UakzxWIL._AC_UF350,350_QL50_.jpg" alt="" />
+    <div class="card-body">
+      <div class="row">
+        <div class="card-title">
+          <h4>Elbow Pads </h4>
+          <h3>Rs.300</h3>
+        </div>
+      </div>
+      <hr/>
+      <p>
+      </p>
+      <div class="btn-group">
+        <div class="btn">
+          <a href="">Buy Now</a>
+        </div>
+        <a href=""> Cancel</a>
+      </div>
+    </div>
+  </div>
+</div>
+<br><br> -->
+<!-- <br><br>
+<div class="container mt-2">
+<div class="row">
+  <div class="col-md-3 col-sm-6 item " *ngFor="let x of single">
+    <div class="card item-card card-block">
+    <h4 class="card-title text-right"><i class="material-icons">{{x.item}}</i></h4>
+  <img src="{{x.image}}" alt="Photo of sunset">
+      <h5 class="item-card-title mt-3 mb-3"> {{x.price}}</h5>
+      <div class="btn-group">
+        <div class="btn">
+          <a href="">Buy Now</a>
+        </div>
+        <a href=""> Cancel</a>
+      </div>
+</div>
+  </div>
+  <br><br> -->
+  <div class="container">
+    <div class="row">
+      <div class="col" *ngFor="let x of single">
+    <main class="grid">
+      <article>
+        <h4 class="card-title text-right">{{x.item}}</h4>
+       <img src="{{x.image}}"
+             alt="">
+        <div class="text">
+          <h5 class="item-card-title mt-3 mb-3"> {{x.price}}</h5>
+       
+        <button> <a (click)="gotovolly()" class="">Buy</a> </button>
+         </div>
+       
+         </article>

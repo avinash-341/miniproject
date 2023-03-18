@@ -15,11 +15,11 @@ const routes: Routes = [
     path: 'home',component:HomeComponent
   },
    {
-    path: '',component:HomeComponent
+    path: 'home',component:HomeComponent
   },
   
   {
-    path: 'login',component:LoginComponent
+    path: '',component:LoginComponent
   },
   {
     path: 'contact',component:ContactComponent  

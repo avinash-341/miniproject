@@ -20,19 +20,19 @@ export const volleyballs=[
   {
   "id":"401",
   "item":"COSCO",
-  "price":"Rs.1299",
+  "price":"1299",
   "image":"https://m.media-amazon.com/images/I/51AKUidTCvL.jpg"
   },
   {
     "id":"402",
   "item":"NIVIA",
-  "price":"Rs.800",
+  "price":"800",
   "image":"https://5.imimg.com/data5/SELLER/Default/2022/6/OA/HW/GU/91838417/volley-ball-500x500.jpeg"
 },
 {
   "id":"403",
   "item":"ESS",
-  "price":"Rs.650",
+  "price":"650",
   "image":"https://m.media-amazon.com/images/I/51nQDSim0VL.jpg"
   },
  ]
@@ -40,19 +40,19 @@ export const volleyballs=[
   {
   "id":"501",
   "item":"WILLAGE NET",
-  "price":"Rs.930",
+  "price":"930",
   "image":"https://m.media-amazon.com/images/I/51KJTYIEVUL.jpg"
   },
   {
     "id":"502",
   "item":"NIVIA",
-  "price":"Rs.1749",
+  "price":"1749",
   "image":"https://m.media-amazon.com/images/I/41x2DNvNQ6L.jpg"
 },
 {
   "id":"503",
   "item":"COSCO",
-  "price":"Rs.1389",
+  "price":"1389",
   "image":"https://skyboxme.com/wp-content/uploads/2021/01/cosco-net-nylon2.png"
   },
 ]
@@ -60,19 +60,19 @@ export const kneepad=[
   {
   "id":"601",
   "item":"NIKE",
-  "price":"Rs.4799",
+  "price":"4799",
   "image":"https://m.media-amazon.com/images/I/415XFtelYPS.jpg"
   },
   {
     "id":"602",
   "item":"CANNON",
-  "price":"Rs.1700",
+  "price":"1700",
   "image":"https://m.media-amazon.com/images/I/41n9LNZ0TrL.jpg"
 },
 {
   "id":"603",
   "item":"ADIDAS",
-  "price":"Rs.5328",
+  "price":"5328",
   "image":"https://m.media-amazon.com/images/I/71o4F+LnYoL._SX522_.jpg"
   }
 ]

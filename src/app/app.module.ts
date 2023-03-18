@@ -15,6 +15,12 @@ import { SingleComponent } from './pages/single/single.component';
 import { SinglefootballComponent } from './singlefootball/singlefootball.component';
 import { SinglevolleyballComponent } from './singlevolleyball/singlevolleyball.component';
 import { PurchaseComponent } from './purchase/purchase.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideAuth,getAuth } from '@angular/fire/auth';
+import { provideDatabase,getDatabase } from '@angular/fire/database';
+import { provideFirestore,getFirestore, Firestore } from '@angular/fire/firestore';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -34,7 +40,12 @@ import { PurchaseComponent } from './purchase/purchase.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    FormsModule,
+    AppRoutingModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideAuth(() => getAuth()),
+    provideDatabase(() => getDatabase()),
+    provideFirestore(() => getFirestore())
   ],
   providers: [],
   bootstrap: [AppComponent]

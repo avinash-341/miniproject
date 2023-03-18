@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "sports-7e861": {
+      "hosting": {
+        "sports": [
+          "sports-7e861"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "sports-7e861"
+  }
+}
